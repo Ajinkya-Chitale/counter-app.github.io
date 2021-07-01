@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger Counter App</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+<body>
+    <section class="counterMainSec">
+        <div class="parent">
+            <h1>People Entered</h1>
+            <h2 id="peopleCount">0</h2>
+            <div class="btnContainer">
+                <button class="btn" id="incrementBtn" onclick="increment()">INCREMENT</button>
+                <button class="btn" id="saveBtn" onclick="save()">SAVE</button>
+            </div>
+            <ul id="batch">
+                <span>Previous Entries:</span>
+            </ul>
+            <div class="totalEntries">
+                <span>Total Entries:</span>
+                <span class="totalEntriesCount"></span>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/myScript.js"></script>
+</body>
+</html>
